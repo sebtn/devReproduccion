@@ -6,4 +6,6 @@
 + Redux boiler plate
 + Karma installed and optimized for fast unit testing  
 
+`` npm run dev ``
+
 `` Author = () => { Sebtn } ``

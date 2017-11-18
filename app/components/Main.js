@@ -5,7 +5,10 @@ import {connect} from 'react-redux'
 class Main extends Component {
   render() {
     return (
-      <h1>This is Main using store and provider!</h1>
+      <die>
+        <h1>This is Main using store and provider!</h1>
+        <h2>SOme other tatoo testin here!</h2>
+      </die>
     )
   }
 }
