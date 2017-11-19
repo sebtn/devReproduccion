@@ -15,6 +15,6 @@ app.use(express.static(path.resolve(__dirname, 'public')) )
   .use(bodyParser.urlencoded({ extended: false }))
   // .use('/', routes)
 
-app.listen(app.get('port'), () => {
-  console.log('Express is now running your port: ' + PORT)
+app.listen(app.get('port'), () => {  
+ console.log( 'Express is now running your port: ' + PORT ) 
 })

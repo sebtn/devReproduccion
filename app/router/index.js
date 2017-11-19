@@ -1,12 +1,13 @@
 import React from 'react'
-import {Route, Router, IndexRoute, hashHistory} from 'react-router'
+import { Route } from 'react-router-dom'
+import { connect } from 'react-redux'
 
 import Main from '../components/Main'
 
-export default (
-  <Router history={hashHistory}>
-    <Route path='/' >
-      <IndexRoute component={Main}/>
-    </Route>
-  </Router>
+const Root = props => (
+  <div>
+    <Route exact path="/main" component={Main} />
+  </div>
 )
+
+export default connect()(Root)

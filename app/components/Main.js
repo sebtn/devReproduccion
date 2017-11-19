@@ -7,7 +7,9 @@ class Main extends Component {
     return (
       <die>
         <h1>This is Main using store and provider!</h1>
-        <h2>SOme other tatoo testin here!</h2>
+        <h2>Local pizza Montreal</h2>
+        <h2>Main piazza store</h2>
+        <h2>Main piazza store</h2>
       </die>
     )
   }
