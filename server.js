@@ -12,7 +12,7 @@ app.set('port', PORT)
 app.use(express.static(path.resolve(__dirname, 'public')) )
   .use(cookieParser())
   .use(bodyParser.json())
-  .use(bodyParser.urlencoded({ extended: false }))
+  .use(bodyParser.urlencoded({ extended: true }))
   // .use('/', routes)
 
 app.listen(app.get('port'), () => {  
